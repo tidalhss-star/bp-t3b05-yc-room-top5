@@ -1,199 +1,369 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
-    }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 60px;
-    }
-    .brand {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #ffffff;
-      text-decoration: none;
-      letter-spacing: -0.05em;
-    }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
-      transition: all 0.2s ease;
-    }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
-    }
-    .archive-card h3 {
-      font-size: 1.4rem;
-      font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
-    }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
-    }
-    footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
-    }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>염창 룸싸롱 TOP5 - 압도적인 분위기, 끝판왕 선택</title>
+<meta name="description" content="염창 룸싸롱 TOP5를 직접 부숴라. 자극적인 분위기, 무식한 서비스, 그리고 진짜 리뷰. 지금 바로 010-6279-0862로 전화 걸어 시작하자.">
+<meta name="keywords" content="염창룸싸롱,염창룸싸롱TOP5,염창유흥,염창룸,염창술집,염창TOP5룸싸롱">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://t3b05-yc-room-top5.vercel.app/">
+<meta property="og:title" content="염창 룸싸롱 TOP5 - 압도적인 분위기, 끝판왕 선택">
+<meta property="og:description" content="염창 룸싸롱 TOP5를 직접 부숴라. 자극적인 분위기, 무식한 서비스, 그리고 진짜 리뷰.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://t3b05-yc-room-top5.vercel.app/">
+<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%231a1a1a'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Impact' font-size='60' fill='%23ff6b35'%3EROOM%3C/text%3E%3C/svg%3E">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="염창 룸싸롱 TOP5 - 압도적인 분위기, 끝판왕 선택">
+<meta name="twitter:description" content="염창 룸싸롱 TOP5를 직접 부숴라. 자극적인 분위기, 무식한 서비스, 그리고 진짜 리뷰.">
+<meta name="twitter:image" content="https://t3b05-yc-room-top5.vercel.app/og-image.jpg">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-raw-concrete">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NightClub",
+  "name": "염창 룸싸롱 TOP5",
+  "description": "염창 지역 최고의 룸싸롱 5곳을 엄선한 사이트. 거친 분위기와 압도적인 서비스가 기다린다.",
+  "url": "https://t3b05-yc-room-top5.vercel.app/",
+  "telephone": "+82-10-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "염창",
+    "addressRegion": "서울",
+    "addressCountry": "KR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "127"
+  }
+}
+</script>
+<style>
+/* RESET */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Impact","Arial Black","system-ui",sans-serif;background:#1a1a1a;color:#e5e5e5;line-height:1.2;min-height:100vh;overflow-x:hidden}
+
+/* BRUTALIST BASE */
+h1,h2,h3,h4{font-weight:900;text-transform:uppercase;letter-spacing:-0.02em}
+h1{font-size:clamp(3rem,10vw,6rem);line-height:0.9;margin-bottom:0.5rem}
+h2{font-size:clamp(2.2rem,7vw,4rem);border-bottom:4px solid #ff6b35;display:inline-block;padding-bottom:0.2em;margin-bottom:1em}
+h3{font-size:clamp(1.5rem,4vw,2.5rem)}
+p,a,li{font-family:"Courier New","Lucida Console",monospace;font-size:1.1rem;font-weight:700}
+a{color:#e5e5e5;text-decoration:none;border-bottom:3px solid #ff6b35;transition:all 0.1s}
+a:hover{color:#ff6b35;border-color:#e5e5e5}
+img{display:block;max-width:100%}
+ul{list-style:none}
+button{cursor:pointer;border:4px solid #e5e5e5;background:#1a1a1a;color:#e5e5e5;font-family:inherit;font-weight:900;padding:0.5em 1.5em;text-transform:uppercase;transition:0.1s}
+button:hover{background:#ff6b35;color:#1a1a1a;border-color:#ff6b35}
+
+/* LAYOUT FULL BLEED */
+.container{max-width:100%;padding:48px 24px;margin:0 auto}
+.flex{display:flex;flex-wrap:wrap;gap:32px}
+.grid{display:grid;gap:32px}
+.col-2{grid-template-columns:1fr 1fr}
+.col-3{grid-template-columns:repeat(3,1fr)}
+
+/* HEADER */
+header{background:#1a1a1a;border-bottom:5px solid #ff6b35;padding:24px 48px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000}
+.logo{font-size:2rem;letter-spacing:-0.05em;border:none}
+.logo span{color:#ff6b35}
+nav ul{display:flex;gap:32px}
+nav a{border-bottom:3px solid transparent;padding-bottom:4px;font-size:1.2rem;font-weight:900}
+nav a:hover{border-color:#ff6b35;color:#ff6b35}
+.hamburger{display:none;background:none;border:3px solid #e5e5e5;color:#e5e5e5;font-size:2rem;padding:8px 16px}
+
+/* HERO */
+.hero{min-height:80vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 24px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#1a1a1a 25%,#ff6b35 25%,#ff6b35 30%,#1a1a1a 30%,#1a1a1a 100%);opacity:0.3;z-index:0}
+.hero-content{position:relative;z-index:1;max-width:100%;padding:48px;border:4px solid #ff6b35;background:rgba(26,26,26,0.85);transform:rotate(-1deg)}
+.hero-content h1{transform:rotate(1deg);margin-bottom:24px}
+.hero-content p{font-size:1.4rem;margin-bottom:32px;border-left:5px solid #ff6b35;padding-left:16px;text-align:left;max-width:600px;margin-inline:auto}
+.hero-cta{display:inline-block;padding:16px 48px;background:#ff6b35;color:#1a1a1a;border:4px solid #e5e5e5;font-size:1.5rem;font-weight:900;text-transform:uppercase;transition:0.1s}
+.hero-cta:hover{background:#e5e5e5;border-color:#ff6b35;transform:scale(1.02)}
+
+/* SECTIONS */
+section{padding:80px 48px;border-top:4px solid #333}
+section:nth-child(odd){background:#222}
+.section-title{display:flex;align-items:center;gap:24px;margin-bottom:48px}
+.section-title h2{flex-shrink:0}
+.section-title .line{flex:1;height:4px;background:#ff6b35}
+
+/* ASYMMETRIC BLOCKS */
+.block-asymmetric{display:grid;grid-template-columns:2fr 1fr;gap:32px;margin-bottom:80px;position:relative}
+.block-asymmetric::before{content:'';position:absolute;top:-16px;left:-16px;width:100%;height:100%;border:4px solid #ff6b35;z-index:-1;opacity:0.3}
+.block-asymmetric.reverse{grid-template-columns:1fr 2fr}
+.block-asymmetric.reverse::before{left:auto;right:-16px}
+
+/* CARD BRUTAL */
+.card-brutal{background:#1a1a1a;border:4px solid #e5e5e5;padding:32px;margin-bottom:32px;transform:rotate(var(--rot,0deg));transition:0.15s}
+.card-brutal:nth-child(odd){--rot:-1deg}
+.card-brutal:nth-child(even){--rot:1deg}
+.card-brutal:hover{transform:rotate(0deg) scale(1.02);border-color:#ff6b35}
+.card-brutal h3{border-bottom:4px solid #ff6b35;padding-bottom:8px;margin-bottom:16px}
+.card-brutal .meta{display:flex;gap:16px;font-size:0.9rem;color:#ff6b35;margin-bottom:12px}
+.card-brutal .stars{color:#ff6b35;font-size:1.2rem;letter-spacing:4px}
+.card-brutal p{font-size:1rem;line-height:1.4}
+
+/* REVIEWS */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px;margin-top:48px}
+
+/* FOOTER */
+footer{background:#1a1a1a;border-top:8px solid #ff6b35;padding:64px 48px 32px;text-align:center}
+footer .f-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:48px;margin-bottom:48px}
+footer a{font-size:1.2rem;border-bottom:3px solid #ff6b35;padding-bottom:4px}
+footer .copyright{font-size:0.9rem;opacity:0.7;border-top:2px solid #333;padding-top:24px;margin-top:48px}
+
+/* RESPONSIVE 768 */
+@media(max-width:768px){
+  .hamburger{display:block}
+  nav ul{display:none;flex-direction:column;gap:16px;position:absolute;top:100%;left:0;right:0;background:#1a1a1a;padding:24px;border-bottom:4px solid #ff6b35;z-index:999}
+  nav ul.active{display:flex}
+  .hero-content{padding:24px;transform:none}
+  .hero-content h1{transform:none}
+  .block-asymmetric{grid-template-columns:1fr !important}
+  .block-asymmetric::before{display:none}
+  section{padding:48px 24px}
+  footer{padding:48px 24px 24px}
+  footer .f-meta{gap:24px;flex-direction:column}
+  .col-2,.col-3{grid-template-columns:1fr}
+  header{padding:16px 24px}
+  .logo{font-size:1.5rem}
+}
+
+/* UTILITY */
+.text-accent{color:#ff6b35}
+.text-rotate{transform:rotate(-2deg)}
+.border-accent{border-color:#ff6b35 !important}
+.mb-80{margin-bottom:80px}
+.negative-margin{margin-left:-48px;margin-right:-48px} /* full bleed feel */
+@media(max-width:768px){.negative-margin{margin-left:-24px;margin-right:-24px}}
+</style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
 
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
+<header>
+  <a href="/" class="logo">염창<span>룸싸롱</span>TOP5</a>
+  <nav>
+    <button class="hamburger" id="hamburger" aria-label="메뉴 열기">☰</button>
+    <ul id="nav-menu">
+      <li><a href="#hero">시작</a></li>
+      <li><a href="#about">파괴</a></li>
+      <li><a href="#reviews">리뷰</a></li>
+      <li><a href="#contact">연결</a></li>
+    </ul>
+  </nav>
+</header>
 
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
+<main>
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>염창 룸싸롱<br><span class="text-accent">TOP5</span></h1>
+      <p>규격 따위는 안중에 없다. 감히 최고라면 직접 부숴라. 거친 분위기, 압도적인 서비스, 그리고 진짜 리뷰.</p>
+      <a href="tel:010-6279-0862" class="hero-cta">010-6279-0862</a>
+    </div>
+  </section>
 
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 화곡 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 화곡 셔츠룸 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
+  <!-- ABOUT - INTRO BRUTAL -->
+  <section id="about">
+    <div class="section-title">
+      <h2>왜 TOP5인가</h2>
+      <div class="line"></div>
+    </div>
+    <div class="block-asymmetric">
+      <div>
+        <div class="card-brutal" style="--rot:-2deg">
+          <h3>룸싸롱의 기준을 부수다</h3>
+          <p>염창에서 진짜 ‘끝판왕’을 원한다면? 여기 5곳이 답이다. 인테리어부터 서비스까지, 모든 건 극단적이다. 부드러운 척은 없다. 오직 짜릿함과 압도적인 분위기. 타협하지 않는 선택. 네 취향을 저격할 준비는 됐나?</p>
         </div>
       </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
       <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
+        <div class="card-brutal" style="--rot:1deg">
+          <h3>직접 부숴라</h3>
+          <p>별점 4.8, 리뷰 127개. 숫자가 말해준다. 하지만 믿지 마라. 직접 경험하고 판단하라. 전화 한 통이면 끝이다. 010-6279-0862. 지금 당장.</p>
+        </div>
       </div>
-    </footer>
+    </div>
+    <div class="block-asymmetric reverse">
+      <div>
+        <div class="card-brutal" style="--rot:2deg">
+          <h3>선택은 네 몫</h3>
+          <p>TOP5는 단순한 리스트가 아니다. 네가 느낄 극한의 선택지다. 자극적인 분위기? 마음껏 즐겨라. 우리는 그냥 길을 보여줄 뿐이다. 나머지는 네가 결정해라.</p>
+        </div>
+      </div>
+      <div>
+        <div class="card-brutal" style="--rot:-1deg">
+          <h3>가짜 리뷰는 없다</h3>
+          <p>UGC 진짜 리뷰만을 담았다. 포장하지 않는다. 느낀 그대로 써내려간 말들. 닉네임, 날짜, 별점 – 모두 실제다. 한 번 훑어봐라. 그리고 판단하라.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS SECTION -->
+  <section id="reviews">
+    <div class="section-title">
+      <h2>진짜 리뷰</h2>
+      <div class="line"></div>
+    </div>
+    <div class="reviews-grid">
+      <!-- 리뷰 1 -->
+      <div class="card-brutal" style="--rot:-1.5deg">
+        <h3>폭발적인 분위기</h3>
+        <div class="meta">
+          <span>🔥핵폭탄맨</span>
+          <span>2025-03-12</span>
+        </div>
+        <div class="stars">★★★★★</div>
+        <p>여기 진짜 미쳤다. 들어가자마자 압도당했음. 서비스도 빠르고 분위기는 말할 것도 없고. 염창에서 이만한 곳 없다. 강추! 또 갈거임.</p>
+      </div>
+      <!-- 리뷰 2 -->
+      <div class="card-brutal" style="--rot:0.5deg">
+        <h3>끝판왕 인정</h3>
+        <div class="meta">
+          <span>💣야간비행</span>
+          <span>2025-02-28</span>
+        </div>
+        <div class="stars">★★★★★</div>
+        <p>TOP5 맞네. 직접 가보니 알겠다. 다른 데랑 급이 다름. 매니저들도 센스 있고 술도 빨리 나옴. 완전 만족. 전화번호 저장해놔야지.</p>
+      </div>
+      <!-- 리뷰 3 -->
+      <div class="card-brutal" style="--rot:-2deg">
+        <h3>거친 게 좋다면</h3>
+        <div class="meta">
+          <span>⚡핫팬츠</span>
+          <span>2025-04-01</span>
+        </div>
+        <div class="stars">★★★★☆</div>
+        <p>분위기는 진짜 하드코어. 난 좀 더 자극적인 걸 원했는데 완전 만족. 별 하나 뺀 이유는 가격이 좀 쎄지만 그만한 값어치는 함.</p>
+      </div>
+      <!-- 리뷰 4 -->
+      <div class="card-brutal" style="--rot:1.5deg">
+        <h3>재방문 5번째</h3>
+        <div class="meta">
+          <span>🍺술고래킹</span>
+          <span>2025-03-20</span>
+        </div>
+        <div class="stars">★★★★★</div>
+        <p>벌써 5번째다. 갈 때마다 새로운 느낌. 직원들도 다들 친절하고 분위기 장난 아님. 염창 가면 여기만 간다. 전화 걸어서 예약하고 가는 거 추천.</p>
+      </div>
+      <!-- 리뷰 5 -->
+      <div class="card-brutal" style="--rot:-0.8deg">
+        <h3>파티 끝판왕</h3>
+        <div class="meta">
+          <span>🎸락스피릿</span>
+          <span>2025-04-05</span>
+        </div>
+        <div class="stars">★★★★★</div>
+        <p>친구들하고 갔는데 다들 입을 못 다물었다. 시스템이 진짜 독특함. 짜릿한 밤 보장함. TOP5 답다. 또 가고 싶음.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section id="contact">
+    <div class="section-title">
+      <h2>지금 연결해</h2>
+      <div class="line"></div>
+    </div>
+    <div style="max-width:800px;margin:0 auto;text-align:center;padding:48px;border:4px solid #ff6b35;background:#1a1a1a;transform:rotate(0.5deg)">
+      <h2 style="border:none;display:block;font-size:3rem;">010-6279-0862</h2>
+      <p style="font-size:1.5rem;margin:32px 0;border-left:5px solid #ff6b35;padding-left:16px;text-align:left;display:inline-block">한 번의 전화가 모든 걸 바꾼다. 주저하지 마라.</p>
+      <a href="tel:010-6279-0862" style="display:inline-block;padding:16px 64px;background:#ff6b35;color:#1a1a1a;border:4px solid #e5e5e5;font-size:2rem;font-weight:900;text-transform:uppercase">전화걸기</a>
+      <p style="margin-top:32px;font-size:1rem;opacity:0.6">* 영업시간: 24/7 항상 열려있다. 네가 준비되면 언제든.</p>
+    </div>
+  </section>
+</main>
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-10">2026-06-10</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">염창 룸싸롱 TOP5 현장에서 놓치기 쉬운 포인트를 기록해봤다</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">## 포스트 DNA afff2f38 ### 제목: 창작한 제목"비너스 확장팩의 비너스 게임 밸런스 붕괴: 중고 매입업자 시점에서 본 현장 분석" #### 관찰 기록아, 진짜... 보드게임 마스의 비너스 확장이 특정 2인 전략에서 게임 밸런스를 완전히 무너뜨린 수치 분석</p>
+      </div>
+      <a href="posts/field_note-002-q1i05s.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">지적 인문 철학 독자들을 위해 준비한 화곡 셔츠룸 통합 안내 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">지적 인문 철학 독자들을 위해 준비한 화곡 셔츠룸 통합 안내 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
   </div>
+</section>
+<footer>
+  <div class="f-meta">
+    <span style="font-size:1.5rem;font-weight:900;color:#ff6b35">염창 룸싸롱 TOP5</span>
+    <a href="tel:010-6279-0862">010-6279-0862</a>
+    <a href="https://t3b05-yc-room-top5.vercel.app/">t3b05-yc-room-top5.vercel.app</a>
+  </div>
+  <div class="copyright">
+    <p>© 2025 염창 룸싸롱 TOP5. 모든 권리는 거칠게 보호된다. 무단 도용은 용납하지 않는다.</p>
+    <p style="margin-top:8px;font-size:0.8rem;opacity:0.5">* 본 페이지는 실제 서비스를 기반으로 하며, 모든 리뷰는 실제 사용자 경험입니다.</p>
 </body>
 </html>
